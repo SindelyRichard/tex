@@ -1,0 +1,42 @@
+\documentclass[]{article}
+\usepackage[english,magyar]{babel}
+\usepackage{t1enc}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{listings}
+
+\begin{document}
+\listoffigures
+\hulipsum[3]
+\includegraphics[height=5cm,width=5cm]{C:/Users/au088484/Documents/Sindely Richárd/szines.jpg}
+\hulipsum[3]
+\hulipsum[3]
+\begin{figure}[h]
+\centering
+\label{halo}
+\caption{képek}
+\begin{subfigure}{5cm}
+\centering
+\label{asd}
+\caption{Szines}
+\includegraphics[height=5cm,width=5cm]{C:/Users/au088484/Documents/Sindely Richárd/szines.jpg}
+\end{subfigure}
+\hspace{1pt}
+\begin{subfigure}{5cm}
+\centering
+\label{asdasd}
+\caption{szépia}
+\includegraphics[height=5cm,width=8cm]{C:/Users/au088484/Documents/Sindely Richárd/szepia.jpg}
+\end{subfigure}
+\end{figure}
+\hulipsum[3]
+
+\end{document}
