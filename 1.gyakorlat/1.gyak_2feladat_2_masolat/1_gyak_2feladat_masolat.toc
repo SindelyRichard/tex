@@ -1,0 +1,14 @@
+\select@language {magyar} \contentsline {section}{\numberline {0.1}Rövid cím}{1}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.1.1}Ez egy alcím}{2}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.1.2}Még egy alcím}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {0.2}Ez egy hosszabb cím}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.2.1}2-es szint}{3}{}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {0.2.1.1}3-as szintű}{3}{}%
+\select@language {magyar} \contentsline {paragraph}{\numberline {0.2.1.1.1}4-es szintű}{3}{}%
+\select@language {magyar} \contentsline {subparagraph}{\numberline {.0.1.1.1.1}5-ös szintű}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {.1}Megint egy cím}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.1.1}Alcím1}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.1.2}Alcím2}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {.2}Még egy cím}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.2.1}Alcím1}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.2.2}Alcím2}{3}{}%
