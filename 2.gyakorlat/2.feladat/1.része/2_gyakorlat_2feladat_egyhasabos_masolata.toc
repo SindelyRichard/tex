@@ -1,0 +1,4 @@
+\select@language {magyar} \contentsline {section}{\numberline {A}Cím2}{4}{appendix.A}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1}Alcím}{5}{subsection.A.1}%
+\select@language {magyar} \contentsline {section}{\numberline {B}Saját lista}{6}{appendix.B}%
+\select@language {magyar} \contentsline {subsection}{\numberline {B.1}Leíró lista}{7}{subsection.B.1}%

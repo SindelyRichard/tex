@@ -1,0 +1,123 @@
+\documentclass[12pt]{article}
+\usepackage[english,magyar]{babel}
+\usepackage{t1enc}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[inline]{enumitem}
+\usepackage[headheight=12pt]{geometry}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyhf[RF]{\thepage}%
+}
+\fancyhf[RHO]{\thepage}
+\fancyhf[CFO,CFE]{Miskolci Egyetem}
+\title{Cím}
+\author{Sindely Richárd}
+\renewcommand{\sectionmark}[1]{\markboth{}{\thesection. #1}}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhf[LHE]{\nouppercase{\leftmark}}
+\fancyhf[LHO]{\rightmark}
+\usepackage[colorlinks,linkcolor=green,%
+urlcolor=pink,citecolor=orange,linktoc=all]{hyperref}
+\begin{document}
+\maketitle
+\selectlanguage{magyar}
+\frenchspacing
+\noindent\setlength{\parskip}{12pt}\hulipsum[1]
+\today
+\begin{flushright}
+{\foreignlanguage{latin}{\lipsum[1]}}
+\end{flushright}
+{
+\selectlanguage{english}\linespread{1.6}\selectfont\blindtext[1]
+\today
+}
+\section*{Cím1\markboth{}{Cím1}}
+\label{OldalnyiZagyva}
+\hulipsum[1-6]
+\appendix
+\section{Cím2}
+Referencia fejezet: \ref{számozatlan}\\
+Referencia oldal: \pageref{számozott}\\
+\href{https://www.uni-miskolc.hu/~viktoria.vadon/}{Tanárnő oldala}\\
+\autoref{számozatlan}\\
+\pageref{számozott} \\
+\hulipsum[3]
+\newpage
+\subsection{Alcím}
+\hulipsum[1]
+\label{alcím label}
+\\
+\begin{itemize*}[itemjoin*={\hspace{1em}és },label=\$]
+\item Első elem
+\item Második elem
+\item Harmadik elem
+\label{számozatlan}
+\end{itemize*}
+\begin{enumerate}
+\item Elem
+\item Elem
+\begin{enumerate}[label*=.\arabic*]
+\item elem
+\begin{enumerate}
+\item elem
+\begin{enumerate}
+\item elem
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\newpage
+\section{Saját lista}
+\newlist{myenum}{enumerate}{5}
+\setlist[myenum]{label=(\arabic*)}
+\newcounter{mycounter}
+\setcounter{mycounter}{1}
+\begin{myenum}
+\item[\label=(\themycounter)] elem
+\stepcounter{mycounter}
+\item[\label=(\$)] elem
+\stepcounter{mycounter}
+\item[\label=(\themycounter)] elem
+\stepcounter{mycounter}
+\begin{myenum}
+\item elem
+\begin{myenum}
+\item elem
+\label{számozott}
+\begin{myenum}
+\item elem
+\begin{myenum}
+\item elem
+\end{myenum}
+\end{myenum}
+\end{myenum}
+\end{myenum}
+\end{myenum}
+\hulipsum[2]
+\begin{myenum}
+\item[\label=(\themycounter)] elem
+\stepcounter{mycounter}
+\item[\label=(\themycounter)] elem
+\stepcounter{mycounter}
+\end{myenum}
+\newpage
+\subsection{Leíró lista}
+\begin{description}[style=nextline]
+\item[] \hulipsum[1]
+\label{Címke nélküli}
+\item[Slanted] \hulipsum[2]
+\begin{description}
+\item[Hosszú címke] \hulipsum[2]
+\end{description}
+\end{description}
+\newpage
+\tableofcontents
+\end{document}
