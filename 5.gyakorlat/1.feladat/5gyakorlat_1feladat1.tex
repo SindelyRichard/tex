@@ -1,0 +1,77 @@
+\documentclass[aspectratio=169,12pt,xcolor={table}]{beamer}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{hulipsum}
+\usepackage{enumerate}
+
+\author{Sindely Richárd}
+\title{5.gyakorlat}
+\date{2023}
+
+\usetheme{Copenhagen}
+
+\begin{document}
+\frame{\titlepage}
+\section{Első dia}
+\frame{\tableofcontents[currentsection]}
+\begin{frame}{Cím}{Alcím}
+\subsection{Kép,lista}
+\begin{columns}[c]
+\begin{column}{.5\linewidth}
+\begin{enumerate}
+\item<1> Egy \transduration<1>{2}
+\item<2> Kettő \transduration<2>{2}
+\end{enumerate}
+\begin{itemize}
+\item Egy
+\item Kettő
+\end{itemize}
+\end{column}
+\begin{column}{.5\linewidth}
+\begin{figure}
+\includegraphics<1>[height=5cm,width=5cm]{D:/Uni/Tex/5.gyakorlat/1.feladat/szepia.jpg}\transdissolve<1>
+\includegraphics<2>[height=5cm,width=5cm]{D:/Uni/Tex/5.gyakorlat/1.feladat/szines.jpg}\transdissolve<2>
+\onslide<1>{\caption{szepia}}\transdissolve<1>
+\onslide<2>{\caption{szines}}\transdissolve<2>
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+\section{Második dia}
+\frame{\tableofcontents[currentsection]}
+\begin{frame}[allowframebreaks]{Másik cím}{Másik alcím}
+Ez másik egy diasor.
+\hulipsum[1-3]
+\end{frame}
+\subsection{blockok}
+\begin{frame}{Blockok}
+\begin{block}{}
+Block tartalma
+\end{block}
+\begin{exampleblock}{Exampleblock címe}
+Exampleblock tartalma
+\end{exampleblock}
+\begin{alertblock}{Alertblock címe} \pause
+Alertblock tartalma
+\end{alertblock}
+\begin{theorem}
+$\sum_{k=1}^n \frac{1}{k}$
+\end{theorem}
+\onslide<3>{
+\begin{proof}
+Ez egy bizonyítás
+\end{proof}}
+\end{frame}
+\begin{frame}[fragile,allowframebreaks]{Még egy cím}{Még egy alcím}
+Ez megint egy másik diasor.
+\begin{verbatim}
+\begin{frame}{Cím}{Alcím}%
+Ez egy diasor.%
+\end{frame}%
+\end{verbatim}
+\begin{semiverbatim}
+\\begin\{\alert{frame}\}\{\textcolor{blue}{cím}\}
+\end{semiverbatim}
+\end{frame}
+\end{document}

@@ -1,0 +1,10 @@
+\frametitle{Még egy cím}\framesubtitle {Még egy alcím}
+Ez megint egy másik diasor.
+\begin{verbatim}
+\begin{frame}{Cím}{Alcím}%
+Ez egy diasor.%
+\end{frame}%
+\end{verbatim}
+\begin{semiverbatim}
+\\begin\{\alert{frame}\}\{\textcolor{blue}{cím}\}
+\end{semiverbatim}

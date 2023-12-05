@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Első dia}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Kép,lista}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Kép,lista}{4}{0}{1}
+\beamer@sectionintoc {2}{Második dia}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{blockok}{10}{0}{2}
