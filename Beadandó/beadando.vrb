@@ -1,0 +1,21 @@
+\frametitle{Források}
+\begin{itemize}
+\item \href{http://gyurokaroly.programozo-oktatas.hu}{Naprendszer táblázat}
+\item \href{https://www.csillagaszat.hu/tudastar/a-naprendszer-felepitese-kialakulasa/03-a-naprendszer-keletkezese/}{Naprendszer}
+\begin{itemize}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010301Merkur/merkur.html}{Merkúr}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010302Venusz/venusz.html}{Vénusz}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/01030301Fold/fold.html}{Föld}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010304Mars/Mars.html}{Mars}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010305Jupiter/Jupiter.html}{Jupiter}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010306Szaturnusz/Szaturnusz.html}{Szaturnusz}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010307Uranusz/Uranusz.html}{Uranusz}
+\item \href{http://astro.u-szeged.hu/oktatas/csillagaszat/6_Naprendszer/010308Neptunusz/Neptunusz.html}{Neptunusz}
+\end{itemize}
+\end{itemize}
+Megjegyzés:
+Videó beillesztése sikerült nálam megjelenik. Így működött csak:
+\begin{lstlisting}
+\usepackage{movie15}
+\includemovie[poster,loop]{7cm}{6cm}{movie.mp4}
+\end{lstlisting}

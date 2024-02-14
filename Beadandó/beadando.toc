@@ -1,0 +1,17 @@
+\beamer@sectionintoc {1}{Kezdetek}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Fiatal naprendszer}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Naprendszer napjainkban}{4}{0}{1}
+\beamer@sectionintoc {2}{Naprendszer}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{Nap}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Kőzetbolygók}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{Merkúr}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{Vénusz}{21}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{3}{Föld}{23}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{4}{Mars}{25}{0}{2}
+\beamer@subsectionintoc {2}{3}{Gázbolygók}{27}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Jupiter}{27}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{2}{Szaturnusz}{30}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{3}{Uránusz}{32}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{4}{Neptunusz}{34}{0}{2}
+\beamer@subsectionintoc {2}{4}{Világűr}{36}{0}{2}
+\beamer@sectionintoc {3}{Források}{47}{0}{3}
